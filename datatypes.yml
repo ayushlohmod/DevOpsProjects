@@ -1,0 +1,44 @@
+#Stings varibles
+name: Ayush Lohmod
+fruit: "apple"
+job: 'swe'
+
+bio: | 
+hey my name is ayush
+i studed in sgt university
+
+#write a single line in multiple lines
+message: >
+this will
+all be in 
+one
+line
+
+#same as
+message: this will all be in one line
+
+number: 5346
+marks: 90.4
+booleanvalue: No
+
+#boolean specify type
+booleanNum: !!bool yes
+
+#specify the type
+zero: !!int 0
+positivenum: !!int 55
+negativteNum: !!int -32
+binaryNum: !!int 0b11001
+octalNum: !!int 034435
+hexa: !!int 0x45
+
+#floating points numbers
+marks: !!float 56.4
+infinite: !!float .inf
+non a num: .nan
+
+
+#null
+surnname: !!null null
+~: this is a null key
+

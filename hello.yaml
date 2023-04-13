@@ -1,0 +1,14 @@
+"apple" : "i am a red fruit"
+1: "this is ayush roll number"
+---
+
+#list
+- ayush
+- mango
+- banana
+---
+cities:
+- new delhi
+- mumbai
+- pune
+...

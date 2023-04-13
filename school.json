@@ -1,0 +1,16 @@
+{
+    "School": [
+        {
+            "name": "pine crest",
+            "principle": "someone",
+            "studenst": [
+                {
+                    "rno": 12,
+                    "name": "ayush",
+                    "marks": 65
+                }
+            ]
+        }
+
+    ]
+}
