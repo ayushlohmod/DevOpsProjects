@@ -26,7 +26,7 @@ done
     
 ```
 
-### Day 000: Oct 1, 2023 (DockerFile)
+### Day 001: Oct 1, 2023 (DockerFile)
 
 **Today's Progress**:
 Today created a docker files for ruby on rails which run and install rails bundler
@@ -42,7 +42,7 @@ EXPOSE 3000
 CMD ["rails", "server", "-b", "0.0.0.0"]
 ```
 
-### Day 000: Oct 2, 2023 (kubernetes)
+### Day 002: Oct 2, 2023 (kubernetes)
 
 **Today's Progress**:
 Today created a kubernetes manifest file which deploy rails apps inside container
@@ -69,7 +69,7 @@ spec:
         - containerPort: 3000
 ```
 
-### Day 000: Oct 2, 2023 (kubernetes)
+### Day 003: Oct 2, 2023 (kubernetes)
 
 **Today's Progress**:
 Today created a YAML file to Configure ArgoCD to Sync with My GitHub Repository
