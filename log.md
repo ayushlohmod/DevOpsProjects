@@ -103,7 +103,7 @@ spec:
 Installed Docker Compose learn to use it also created a Yaml file to set up the environment, configure the services and links between different containers, and also to use environment variables in the docker-compose.yml file.
 
 The File looks like this
-```
+```yaml
 version: '3'
 services:
   web:
