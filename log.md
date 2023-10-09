@@ -9,7 +9,7 @@
 
 Today created a Bash script to monitor disk usage on a system and raise a "CRITICAL" alert if any of the disk partitions have usage greater than or equal to the specified threshold, which is set to 90% (alert=90).
 
-```
+```bash
 #!/bin/bash
 alert=90
 df -H | awk '{print $5 " " $1}' | while read output;
@@ -31,7 +31,7 @@ done
 **Today's Progress**:
 Today created a docker files for ruby on rails which run and install rails bundler
 and run locally this will do automation for installing and upadating rails
-```
+```dockerfile
 FROM ruby:3.2.1
 WORKDIR /app
 RUN gem install rails bundler
@@ -47,7 +47,7 @@ CMD ["rails", "server", "-b", "0.0.0.0"]
 **Today's Progress**:
 Today created a kubernetes manifest file which deploy rails apps inside container
 and run on PORT 3000
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -80,7 +80,7 @@ steps
 2. Created a private GitHub repository to store my application's Kubernetes manifests and ArgoCD configuration files.
 3. Configure ArgoCD to sync with my private GitHub repository by creating an Application YAML file
 
-```
+```yaml
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
