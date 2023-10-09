@@ -97,3 +97,31 @@ spec:
     namespace: my-rails-namespace
 
 ```
+### Day 003: Oct 10, 2023 (Docker)
+
+**Today's Progress**:
+Installed Docker Compose learn to use it also created a Yaml file to set up the environment, configure the services and links between different containers, and also to use environment variables in the docker-compose.yml file.
+
+The File looks like this
+```
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    networks:
+      - mynetwork
+  db:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=my-secret-pw
+    networks:
+      - mynetwork
+networks:
+  mynetwork:
+
+
+```
+
+
