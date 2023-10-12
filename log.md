@@ -124,4 +124,11 @@ networks:
 
 ```
 
+### Day 004: Oct 11, 2023 (Docker)
 
+**Today's Progress**:
+Today build a project 
+1 where i Fork the github repository 
+2 Create a connection to my Jenkins job and my GitHub Repository via GitHub Integration.
+3 In the Execute shell I run the application using Docker compose
+4 the project run on port 8000
