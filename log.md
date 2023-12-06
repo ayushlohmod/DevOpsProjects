@@ -136,3 +136,16 @@ Today build a project
 **Link to work:**
 
 - https://github.com/ayushlohmod/ToDo-cicd
+
+### Day 004: Dec 06, 2023 (Aws)
+Since i was working with aws quite alot i know mostly services 
+Learn All about aws completed task 
+
+### Day 004: Dec 07, 2023 (Ci/CD)
+**Today's Progress**:
+
+Learn About CodeBuild
+Read about Buildspec file for Codebuild.
+created a simple index.html file in CodeCommit Repository
+build the index.html using nginx server
+
