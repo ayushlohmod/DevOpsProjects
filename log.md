@@ -149,3 +149,8 @@ Read about Buildspec file for Codebuild.
 created a simple index.html file in CodeCommit Repository
 build the index.html using nginx server
 
+### Day 004: Dec 07, 2023 (Ansible)
+**Today's Progress**:
+Started learning Ansible 
+Read about ansible and install it on EC2 server, read about Hosts files
+
