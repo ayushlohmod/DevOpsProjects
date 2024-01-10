@@ -2,7 +2,7 @@
 <School name="Pine Crest" principle="someone">
     <Students>
         <Student>
-            <rno>23</rno>
+            <rno>23 </rno>
             <name>'ayush'</name>
             <marks>70</marks>
         </Student>
